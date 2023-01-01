@@ -1,4 +1,4 @@
-function printWordInFrame(words) {
+function wordInTheStars(words) {
     // Split the input string into an array of words
     words = words.split(',');
   
@@ -29,5 +29,5 @@ function printWordInFrame(words) {
 let words = prompt("Enter a few words separated by commas : ");
 
 // Print the words in a frame
-printWordInFrame(words);
+wordInTheStars(words);
   
